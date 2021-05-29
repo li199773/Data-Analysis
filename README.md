@@ -3,5 +3,7 @@
 ## 01 matplotlib基础绘图和调整x轴
 ### 相关介绍：
 ### 1.导入 `matplotlib` 模块
-    from matplotlib import pyplot as plt
+        from matplotlib import pyplot as plt
 ### 2.通常要通过`figsize` 设置图片的大小
+### 3.开始绘图
+        plt.plot(x, y)
