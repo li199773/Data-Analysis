@@ -12,3 +12,4 @@
         _ytick_label = 
         plt.xticks(_xtick_label)
         plt.yticks(_ytick_label)
+## 02.01 matplotlib绘制 0-12 的气温图
