@@ -18,3 +18,6 @@
 #### 1.`matplotlib` 不显示中文的问题：需要导入包即可，相关的字体见下一节介绍，中文字体不是很多。
         import matplotlib
         matplotlib.rc("font", family=' DengXian')
+#### 2.画出来的图片需要一步一步的去细致的调节。
+#### 3.x轴的调节（y轴也是同理）
+        _xtick_label = ["10点{}分".format(i) for i in range(1, 60)]
