@@ -13,3 +13,4 @@
         plt.xticks(_xtick_label)
         plt.yticks(_ytick_label)
 ## 02.01 matplotlib绘制 0-12 的气温图
+### 目标分析：构建一个2小时的气温图。
