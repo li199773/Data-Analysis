@@ -23,3 +23,7 @@
         _xtick_label = ["10点{}分".format(i) for i in range(1, 60)]
 #### 4.进行稀疏操作，取步长
         plt.xticks(list(x)[::3], _xtick_label[::3], rotation=45) # 注意前后要一致，因为要将_xtick_label传递给x,rotation是旋转角度的意思
+#### 5.添加描述信息
+        plt.xlabel("时间") # x轴的描述信息
+        plt.ylabel("温度 单位(℃)") y轴的描述信息
+        plt.title("10点到12点每分钟的温度变化情况") 标题的描述信息
