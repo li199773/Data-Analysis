@@ -21,3 +21,5 @@
 #### 2.画出来的图片需要一步一步的去细致的调节。
 #### 3.x轴的调节（y轴也是同理）
         _xtick_label = ["10点{}分".format(i) for i in range(1, 60)]
+#### 4.进行稀疏操作，取步长
+        plt.xticks(list(x)[::3], _xtick_label[::3], rotation=45) # 注意前后要一致，因为要将_xtick_label传递给x,rotation是旋转角度的意思
