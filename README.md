@@ -15,4 +15,6 @@
 ## 02.01 `matplotlib` 绘制 0-12 的气温图
 ### 目标分析：构建一个2小时的气温图。
 ### 相关介绍：
-#### 1.
+#### 1.`matplotlib` 不显示中文的问题：需要导入
+        import matplotlib
+        matplotlib.rc("font", family=' DengXian')
