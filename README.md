@@ -50,3 +50,4 @@
 #### 3.使用 `scatter` 来绘制散点图
         plt.scatter(x_3, y_3, label="3月份")
         plt.scatter(x_10, y_10, label="10月份")
+## 05.01 `matplotlib` 绘制条形图
