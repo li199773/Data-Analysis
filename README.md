@@ -62,3 +62,4 @@
 #### 1.发现使用`rotation`旋转45度发现店也是显示不太完整，所以画出横条形图，即x y轴的数据进行调换即可。
 #### 2.横条形图：barh
         plt.barh(range(len(a)), b, height=0.3, color="red") 
+## 05.03 matplotlib绘制多次条形图
