@@ -81,3 +81,4 @@
         # import random
         # y = [random.randint(90, 150) for i in range(250)]
         # print(y)
+#### 2.plt.hist方法是那些没有统计过的数据,没有办法绘制直方图。所以要进行相应的处理。
