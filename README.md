@@ -72,3 +72,4 @@
         x_16 = [i + bar_width * 2 for i in x_14]
 ### 3.设置x轴的刻度，让电影名字实现居中处理：
         plt.xticks(x_15, a)
+## 06.01 matplotlib绘制直方图
