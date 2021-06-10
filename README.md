@@ -96,4 +96,4 @@
 #### # 条形图与直方图是有区别的。
         plt.bar(range(len(quantity)), quantity, width=1) # width=1的话就会连在一起。
 ## 07 numpy创建数组
-### 相关介绍：
+### 相关介绍：从本节开始介绍python中numpy的
