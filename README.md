@@ -97,3 +97,4 @@
         plt.bar(range(len(quantity)), quantity, width=1) # width=1的话就会连在一起。
 ## 07 numpy创建数组
 ### 相关介绍：从本节开始介绍`python`中`numpy`的一些主要的用法
+### `numpy`:一个在Python中做科学计算的基础库，重在数值计算，也是大部分Python科学计算的基础库，多用于在大型，多维数组上执行数值运算
