@@ -7,3 +7,4 @@
     t2 = np.array(range(10))
     t3 = np.arange(10) # 速度是最快的
 #### 2.`numpy`数组的类型：`int` `float` `bool`等类型
+## 08 numpy数组的形状和计算
