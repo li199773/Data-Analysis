@@ -29,3 +29,7 @@
            # skiprows：跳过x行，一般跳过第一行表头
            # uncols：读取指定的列，索引，元祖类型
            # unpack：Ture :转置的效果，行变成列，列变成行
+#### 传入文件路径：
+        GB_file_path = "./archive/GBvideos.csv"
+#### 2.加载本地的数据：一般情况下使用下面的参数即可。
+        t1 = np.loadtxt(GB_file_path, delimiter=",", dtype="int", unpack=True)
