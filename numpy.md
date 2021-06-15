@@ -20,3 +20,12 @@
         # 必须要行或者是列要一致才可以，不然会进行报错。
 ## 09 `numpy`读取本地数据
 ### 相关介绍：我们一般不会使用`numpy`这个方法进行数据的读取，因为在后续的`pandas`里面会有更好的方法进行文件数据的读取。
+### 相关操作：
+#### 1.格式介绍：
+        np.loadtxt(frame.dtype = np.load,delimiter =None,skiprows = 0,uncols = None,unpack = False)
+            frame:文件，字符串产生器
+            dtype: 数据的类型
+            delimiter:分割字符串，默认是任何空格，改为逗号
+            skiprows：跳过x行，一般跳过第一行表头
+            uncols：读取指定的列，索引，元祖类型
+            unpack：Ture :转置的效果，行变成列，列变成行
