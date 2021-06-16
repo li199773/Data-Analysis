@@ -37,3 +37,4 @@
         print(t3.transpose())
         print(t3.T)
 ## 10 `numpy`切片和索引
+### 相关介绍：本节主要介绍了使用`loadtxt`加载本地的数据
