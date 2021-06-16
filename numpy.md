@@ -36,3 +36,4 @@
 #### 3.转置方法的介绍：`transpose`，`T` 等等
         print(t3.transpose())
         print(t3.T)
+## 10 `numpy`切片和索引
