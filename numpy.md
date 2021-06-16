@@ -34,3 +34,5 @@
 #### 2.加载本地的数据：一般情况下使用下面的参数即可。
         t1 = np.loadtxt(GB_file_path, delimiter=",", dtype="int", unpack=True)
 #### 3.转置方法的介绍：`transpose`，`T` 等等
+        print(t3.transpose())
+        print(t3.T)
