@@ -39,4 +39,8 @@
 ## 10 `numpy`切片和索引
 ### 相关介绍：本节主要介绍了使用`loadtxt`加载本地的数据，取数组行列的操作，检索数组的操作，剪枝`clip`的操作，`nan`的操作。
 ### 相关操作：
-#### 1.
+#### 1.加载本地数据：
+        # 传入文件的路径
+        us_file_path = "./archive/USvideos.csv"
+        # 加载本地的数据
+        t1 = np.loadtxt(us_file_path, delimiter=",", dtype="int")
