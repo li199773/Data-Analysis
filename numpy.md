@@ -44,4 +44,9 @@
         us_file_path = "./archive/USvideos.csv"
         # 加载本地的数据
         t1 = np.loadtxt(us_file_path, delimiter=",", dtype="int")
+#### 2.数组取行列的操作：
+        # 取连续多行的操作：: 即可
+        print(t1[1:])
+        # 取不行连续的多行的操作:[[]] 里面两个[]才可以
+        print(t1[[0, 1, 2]])
 ## 11 `numpy`数组的拼接
