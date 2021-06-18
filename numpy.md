@@ -44,3 +44,4 @@
         us_file_path = "./archive/USvideos.csv"
         # 加载本地的数据
         t1 = np.loadtxt(us_file_path, delimiter=",", dtype="int")
+## 11 `numpy`数组的拼接
