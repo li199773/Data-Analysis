@@ -53,4 +53,7 @@
 #### 3.剪枝`clip`的操作：
         print(t2.clip(10, 15))
         # 在t2里面把小于10的替换成10,大于15的替换成15
+#### 4.`nan`的操作：
+        t2[3, 3] = np.nan
+        # 输出为：cannot convert float NaN to integer
 ## 11 `numpy`数组的拼接
