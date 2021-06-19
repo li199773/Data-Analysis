@@ -62,3 +62,6 @@
 #### 1.数组的拼接：`vstack`竖直拼接，`hstack`水平拼接
         np.vstack # 竖直拼接
         np.hstack # 水平拼接
+#### 2.创建数组:
+        np.zeros() # 创建全为0的数组
+        np.ones() # 创建全为1的数组
