@@ -79,3 +79,6 @@
         # 最大值-最小值，再去除以组距然后取整
         bin_nums = (t_us_comment.max() - t_us_comment.min()) // d
 #### 2.二者之间的关系使用散点图即可`scatter`
+#### 3.取x,y轴的数据：
+        t_uk_like = t_uk[:, 1]
+        t_uk_comment = t_uk[:, -1]
