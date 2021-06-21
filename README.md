@@ -96,4 +96,4 @@
 #### # 条形图与直方图是有区别的。
         plt.bar(range(len(quantity)), quantity, width=1) # width=1的话就会连在一起。
 ## 07-11 本章节开始介绍`numpy`的相关用法及其项目案例，具体详细信息查看 numpy.md 文件。
-## 07-11 本章节开始介绍`pandas`的相关用法，具体详细信息查看 numpy.md 文件。
+## 12- 本章节开始介绍`pandas`的相关用法，具体详细信息查看 numpy.md 文件。
