@@ -83,3 +83,4 @@
         t_uk_like = t_uk[:, 1]
         t_uk_comment = t_uk[:, -1]
 #### 4.绘制图形：
+        plt.scatter(t_uk_like, t_uk_comment)
