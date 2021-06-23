@@ -15,3 +15,7 @@
         # 通过行数进行取值
         print(t3[:3])
         # 取前3行
+#### 4.value的一些操作：
+        t3.values  # 输出的是值
+        # array(['xiaohong', 20, 10086], dtype=object)
+        type(t3.values)
