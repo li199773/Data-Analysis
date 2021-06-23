@@ -19,3 +19,4 @@
         t3.values  # 输出的是值
         # array(['xiaohong', 20, 10086], dtype=object)
         type(t3.values)
+## 14 pandas读取外部数据
