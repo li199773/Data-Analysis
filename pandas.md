@@ -28,3 +28,4 @@
 #### 1.改变索引的编号：
         t2 = pd.DataFrame(np.arange(12).reshape(3, 4), index=list("abc"), columns=list("zxcv"))
 #### 2.缺失数据的编写：
+        t5 = [{"name": "xiaogang", "age": 20, "tel": 10086}, {"name": "xiaohong", "tel": 10010}, {"name": "xiaoli", "age": 30}]
