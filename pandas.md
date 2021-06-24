@@ -27,3 +27,4 @@
 ### 相关操作：
 #### 1.改变索引的编号：
         t2 = pd.DataFrame(np.arange(12).reshape(3, 4), index=list("abc"), columns=list("zxcv"))
+#### 2.缺失数据的编写：
