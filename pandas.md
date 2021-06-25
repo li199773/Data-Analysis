@@ -40,3 +40,5 @@
 #### 1.对数据进行排序
         # sort_values 对其中的一列进行排序，by= 指定其中的一列排序，ascending=False降序排序
         dog_names = dog_names.sort_values(by="Count_AnimalName", ascending=False)
+#### 2.取某一列
+        print(dog_names["Row_Labels"]) 取Row_Labels这一列
