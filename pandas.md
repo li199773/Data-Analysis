@@ -36,3 +36,7 @@
 ## 16 `pandas`的`DataFrame`练习
 ### 练习需求：查看哪一种的名字被使用的次数最多？
 ### 数据集：dogNames2.csv
+### 相关操作：
+#### 1.对数据进行排序
+        # sort_values 对其中的一列进行排序，by= 指定其中的一列排序，ascending=False降序排序
+        dog_names = dog_names.sort_values(by="Count_AnimalName", ascending=False)
