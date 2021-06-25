@@ -34,3 +34,4 @@
 #### 4.显示数据的详细信息：`info`
         print(dog_names.info())  # 会把列和行的信息更详细的展示出来。
 ## 16 `pandas`的`DataFrame`练习
+### 相关介绍：
