@@ -33,4 +33,4 @@
         print(dog_names.head()) # 默认显示数据的前5行
 #### 4.显示数据的详细信息：`info`
         print(dog_names.info())  # 会把列和行的信息更详细的展示出来。
-## 16 pandas的DataFrame练习
+## 16 `pandas`的`DataFrame`练习
