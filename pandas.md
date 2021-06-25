@@ -23,7 +23,7 @@
 ### 相关介绍：跟`numpy`差不多，传入相关的类型即可。
         dog_names = pd.read_csv("./archive/dogNames2.csv") # 文件所在的路径
         print(dog_names)
-## 15 `pandas`的DataFrame的创建
+## 15 `pandas`的`DataFrame`的创建
 ### 相关操作：
 #### 1.改变索引的编号：
         t2 = pd.DataFrame(np.arange(12).reshape(3, 4), index=list("abc"), columns=list("zxcv"))
