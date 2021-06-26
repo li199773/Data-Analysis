@@ -43,3 +43,6 @@
 #### 2.取某一列：
         print(dog_names["Row_Labels"]) 取Row_Labels这一列
 #### 3.双重判断：
+        print(dog_names[800 < dog_names["Count_AnimalName"] < 1000]) # 不能这么写
+        # 分开进行以下的编写，使用 & 进行连接
+        print(dog_names[(800 < dog_names["Count_AnimalName"]) & (1000 > dog_names["Count_AnimalName"])])
