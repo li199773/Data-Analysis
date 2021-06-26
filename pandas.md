@@ -42,3 +42,4 @@
         dog_names = dog_names.sort_values(by="Count_AnimalName", ascending=False)
 #### 2.取某一列
         print(dog_names["Row_Labels"]) 取Row_Labels这一列
+#### 3.双重判断
