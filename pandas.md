@@ -47,3 +47,7 @@
         # 分开进行以下的编写，使用 & 进行连接
         print(dog_names[(800 < dog_names["Count_AnimalName"]) & (1000 > dog_names["Count_AnimalName"])])
 ## 17 `pandas`的`DataFrame`索引
+### 相关操作：
+#### 1.取很多行也想取很多列：主要有2种方法`loc`与`iloc`
+        # loc:通过 标签 索引行数据
+        # iloc：通过 位置 获取行数据
