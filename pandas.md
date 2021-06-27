@@ -54,3 +54,6 @@
         print(t1.loc["a"])  # 取整行
         print(t1.loc["a":])  # 取整行
 #### 2.缺失数据的处理：
+        t1.iloc[1:, :2] = np.nan
+        t2 = pd.isnull(t1)
+        print(t2)  # 可以找到是不是为nan的
