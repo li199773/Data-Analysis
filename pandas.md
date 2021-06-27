@@ -58,3 +58,7 @@
         t2 = pd.isnull(t1)
         print(t2)  # 可以找到是不是为nan的
 #### 3.`nan`操作：删除
+        # any 操作:只要这一行含有nan的话就会把它进行删除、
+        t5 = t1.dropna(axis=0, how="any")
+        # all 操作:保证这一行全部要含有nan的话就会把它进行删除、
+        t6 = t1.dropna(axis=0, how="all")
