@@ -62,3 +62,4 @@
         t5 = t1.dropna(axis=0, how="any")
         # all 操作:保证这一行全部要含有nan的话就会把它进行删除、
         t6 = t1.dropna(axis=0, how="all")
+#### 4.`inpalce` 原地的替换
