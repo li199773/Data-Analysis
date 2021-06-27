@@ -63,4 +63,6 @@
         # all 操作:保证这一行全部要含有nan的话就会把它进行删除、
         t6 = t1.dropna(axis=0, how="all")
 #### 4.`inpalce` 原地的替换
+        # t1.dropna(axis=0, how="any", inplace=True)
+        # 已经把原来的t1替换完成
 #### 5.使用相关的值进行填充`nan`
