@@ -57,3 +57,4 @@
         t1.iloc[1:, :2] = np.nan
         t2 = pd.isnull(t1)
         print(t2)  # 可以找到是不是为nan的
+#### 3.`nan`操作：删除
