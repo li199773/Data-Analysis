@@ -66,4 +66,4 @@
         # t1.dropna(axis=0, how="any", inplace=True)
         # 已经把原来的t1替换完成
 #### 5.使用相关的值进行填充`nan`
-## 18 pandas处理电影的直方图
+## 18 `pandas`处理电影的直方图
