@@ -70,4 +70,6 @@
 ### 数据集：IMDB_Movie_Data
 ### 目标需求：对于这一组的电影数据，如果我们像`rating`，`runtime`的分布情况，应该如何呈现数据？
 ### 相关操作：
-#### 1.
+#### 1.选择图形，直方图
+#### 2.计算组数
+        num_bin = (max_runtime - min_runtime) // 5
