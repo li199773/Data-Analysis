@@ -74,4 +74,4 @@
 #### 1.选择图形，直方图
 #### 2.计算组数
         num_bin = (max_runtime - min_runtime) // 5
-## 2.rating 分布情况 0-10 打分
+## 2.`rating`分布情况 0-10 打分
