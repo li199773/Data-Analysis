@@ -80,3 +80,4 @@
         print(max_Rating, min_Rating)
         num_bin_list = [1.6]
         num_bin_list = [1.6]+[0.5]*11
+## 19 pandas常用的统计方法
