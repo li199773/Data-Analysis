@@ -75,3 +75,8 @@
 #### 2.计算组数
         num_bin = (max_runtime - min_runtime) // 5
 ## 2.`rating`分布情况 0-10 打分
+### 相关操作：
+#### 1.计算组数：
+        print(max_Rating, min_Rating)
+        num_bin_list = [1.6]
+        num_bin_list = [1.6]+[0.5]*11
