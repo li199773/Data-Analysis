@@ -87,3 +87,4 @@
         pd.set_option('display.max_columns', None)
 #### 2.获取电影导演的人数（因为有的导演拍摄不止一部影片，所以会有重合的，目标是进行去重，取唯一）
         print(len(IMDB_Movie_Data["Director"].unique()))
+#### 3.获取演员的信息，按照，进行分割
