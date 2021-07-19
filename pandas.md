@@ -81,4 +81,4 @@
         num_bin_list = [1.6]
         num_bin_list = [1.6]+[0.5]*11
 ## 19 `pandas`常用的统计方法
-### 数据集：
+### 数据集：IMDB-Movie-Data
