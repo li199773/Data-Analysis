@@ -89,3 +89,4 @@
         print(len(IMDB_Movie_Data["Director"].unique()))
 #### 3.获取演员的信息，按照`,`进行分割，并且将数组转换成列表
         DB_Movie_Data["Actors"].str.split(",").tolist()
+## 20 pandas字符串离散化
