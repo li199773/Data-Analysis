@@ -99,3 +99,5 @@
 #### 2.展开链表:链表嵌套链表使用双重循环，进行输出（一般都要进行以下操作）
         genre_list = list(set([i for j in temp_list for i in j]))
 #### 3.给每个电影出现的位置继续赋值1
+#### 4.统计每个分类的电影的数量和
+        genre_count = zero_IMDB_Movie_Data.sum(axis=0)
