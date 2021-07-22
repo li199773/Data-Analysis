@@ -103,3 +103,5 @@
         genre_count = zero_IMDB_Movie_Data.sum(axis=0)
 #### 5.画图
 ## 21 `panads`数组的合并
+### 相关操作：
+#### 1.join合并：主要是看以哪一个为主
