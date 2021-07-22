@@ -102,3 +102,4 @@
 #### 4.统计每个分类的电影的数量和
         genre_count = zero_IMDB_Movie_Data.sum(axis=0)
 #### 5.画图
+## 21 panads数组的合并
