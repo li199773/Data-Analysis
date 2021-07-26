@@ -19,7 +19,7 @@
         t3.values  # 输出的是值
         # array(['xiaohong', 20, 10086], dtype=object)
         type(t3.values)
-## 14 `pandas`读取外部数据
+## 14 `pandas`读取外部数据。
 ### 相关介绍：跟`numpy`差不多，传入相关的类型即可。
         dog_names = pd.read_csv("./archive/dogNames2.csv") # 文件所在的路径
         print(dog_names)
