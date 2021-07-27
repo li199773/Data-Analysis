@@ -112,3 +112,6 @@
 ### 相关操作：
 #### 1.分类：按照列索引为国家进行分组
         rouped = directory.groupby(by="Country")
+#### 2.统计中国每个省的店铺的数量
+        china_data = directory[directory["Country"] == "CN"] # 先提取出来国家为中国的所有的信息
+        grouped = china_data.groupby(by="State/Province").count()["Brand"] # 对提取出来的国家为中国在进行对省市进行分类，并且统计数量
