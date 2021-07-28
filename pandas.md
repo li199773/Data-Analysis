@@ -116,3 +116,4 @@
         china_data = directory[directory["Country"] == "CN"] # 先提取出来国家为中国的所有的信息
         grouped = china_data.groupby(by="State/Province").count()["Brand"] # 对提取出来的国家为中国在进行对省市进行分类，并且统计数量
 #### 3.使用`matplotlib`进行绘图即可
+## 23 `panads`数据的索引
