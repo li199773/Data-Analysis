@@ -135,3 +135,4 @@
         .sort_values(ascending=False) # 降序排列
 #### 2.添加相关的描述信息
 #### 3.绘图
+## 25 `panads`数据的索引项目练习
