@@ -141,4 +141,7 @@
 #### 2.不同年份书的平均评分情况
 #### 数据集：books.csv
 ### 相关操作：
-#### 1.数据预处理：数据
+#### 1.数据预处理：数据里面有缺失不能直接进行使用dropnan，会把其他为nan都给删除
+        books_data_notnull = books_data[pd.notnull(books_data["original_publication_year"])] # 使用notnull进行数据的提取
+
+#### 
