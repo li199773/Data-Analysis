@@ -143,5 +143,5 @@
 ### 相关操作：
 #### 1.数据预处理：数据里面有缺失不能直接进行使用dropnan，会把其他为nan都给删除
         books_data_notnull = books_data[pd.notnull(books_data["original_publication_year"])] # 使用notnull进行数据的提取
-
-#### 
+#### 2.绘图，强制转换成整数，不要小数，并且按照10进行取步长
+        plt.xticks(list(range(len(average_x)))[::10], average_x[::10].astype(int), rotation=45)
