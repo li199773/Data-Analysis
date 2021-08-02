@@ -145,3 +145,4 @@
         books_data_notnull = books_data[pd.notnull(books_data["original_publication_year"])] # 使用notnull进行数据的提取
 #### 2.绘图，强制转换成整数，不要小数，并且按照10进行取步长
         plt.xticks(list(range(len(average_x)))[::10], average_x[::10].astype(int), rotation=45)
+## 26 `panads`时间序列练习
