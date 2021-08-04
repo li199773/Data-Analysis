@@ -164,4 +164,5 @@
 #### 2.统计出911数据中心不同月份不同类型的电话的次数的变化情况
 ### 数据集：911.csv
 ### 相关操作：
-#### 1
+#### 1.重采样的学习：
+        t1 = pd.to_datetime(nine11_data["timeStamp"]) # to_datetime对timeStamp这一列进行获取时间序列
