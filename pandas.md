@@ -168,3 +168,5 @@
         t1 = pd.to_datetime(nine11_data["timeStamp"]) # to_datetime对timeStamp这一列进行获取时间序列
 #### 2.统计出911数据中不同月份电话的次数
         count_by_month = nine11_data.resample("M").count()["title"]
+#### 3.tolist()转换成一个列表
+        temp_list = nine11_data["title"].str.split(":").tolist()  # 进行转化成一个列表
