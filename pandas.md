@@ -158,3 +158,4 @@
         t1 = pd.date_range(start="20210624", end="20210731", freq="D") # 按一天或者10天都可进行输出
 ##### 3.2 控制输出数据的个数：
         t3 = pd.date_range(start="20210624", freq="D", periods=10) # 不能与end进行连用
+## 27 `panads`时间序列练习
