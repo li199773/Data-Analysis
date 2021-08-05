@@ -170,3 +170,4 @@
         count_by_month = nine11_data.resample("M").count()["title"]
 #### 3.tolist()转换成一个列表
         temp_list = nine11_data["title"].str.split(":").tolist()  # 进行转化成一个列表
+## 28 PM 2.5案列
