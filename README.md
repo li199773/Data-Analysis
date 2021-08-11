@@ -1,5 +1,5 @@
 # Data-Analysis：数据分析
-## 本章节开始开始进行数据的分析。其中包括`matplotlib`,`numpy`,`pandas`
+## 经过一章节的数据爬虫，本章节开始进行数据分析操作。其中包括`matplotlib`,`numpy`,`pandas`
 ## 01 matplotlib基础绘图和调整x轴
 ### 相关介绍：
 #### 1.导入 `matplotlib` 模块
